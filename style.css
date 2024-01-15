@@ -18,37 +18,42 @@
     font-family: 'Bungee Spice', sans-serif;
     font-family: 'Exo 2', sans-serif;
 }
+
 /*section CSSS*/
-header{
+header {
     padding: 0 240px;
     padding-bottom: 50px;
 }
+
 /*nav items section*/
 .nav-item li a {
     color: black;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
+
 .nav-item li {
     list-style: none;
-    padding: 0px 20px ;
+    padding: 0px 20px;
 }
 
-.nav-item{
+.nav-item {
     display: flex;
 }
-.nav-bar h1::first-letter{
+
+.nav-bar h1::first-letter {
     font-size: 3.12rem;
     font-family: 'Bungee Spice', sans-serif;
 }
-.nav-bar{
+
+.nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
     background-color: rgb(217, 54, 0);
     padding: 10px;
     border-radius: 50px;
@@ -64,64 +69,73 @@ header{
 
 
 
-.contex h1{
+.contex h1 {
     font-family: 'Tektur', sans-serif;
     font-size: 3rem;
 }
-.contex p{
+
+.contex p {
     color: orangered;
 }
-.contex{
+
+.contex {
     text-align: center;
 }
- button{
+
+button {
     padding: 15px 40px;
     color: white;
     background-color: orangered;
     border: none;
     cursor: pointer;
     border-radius: 50px;
- }
- button:hover{
+}
+
+button:hover {
     background-color: cadetblue;
     color: black;
- }
- .top .contex h1 {
-    margin-bottom: 5px; 
 }
-.iim img{
+
+.top .contex h1 {
+    margin-bottom: 5px;
+}
+
+.iim img {
     margin-top: 10px;
     width: 100%;
 
 }
 
-.iim{
+.iim {
     display: flex;
     align-items: center;
-    padding: 0px 20px ;
+    padding: 0px 20px;
     margin-top: 20px;
 }
 
 /* features sections */
-.features{
+.features {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.frame2{
-    width:70%;
+
+.frame2 {
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 70px;
 }
-.album{
+
+.album {
     display: grid;
     flex-wrap: wrap;
     gap: 1rem;
-    grid-template-columns: repeat(2,1fr) ;
+    grid-template-columns: repeat(2, 1fr);
 }
-.context{
+
+.context {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -131,27 +145,185 @@ header{
 .content {
     font-size: 1rem;
     color: rgb(97, 97, 97);
-   
+
 }
-.context h1{
+
+.context h1 {
     font-size: 2rem;
     color: rgb(97, 97, 97);
     margin-bottom: 5px;
 }
-.s1{
+
+.s1 {
     color: black;
 }
-.s2{
+
+.s2 {
     color: orangered;
     font-size: 3rem;
 }
-.vline{
+
+.vline {
     border-left: 10px solid orangered;
     height: 100px;
     margin-bottom: 100px;
     padding-right: 1vw;
 }
-.title h1::first-letter
-{
+
+.title h1::first-letter {
     font-size: 3rem;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+}
+
+.facts>div {
+    margin: 50px;
+}
+
+.award {
+    width: 10vw;
+    height: 10vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid orangered;
+}
+
+.award:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.project {
+    width: 10vw;
+    height: 10vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid orangered;
+    border-radius: 10px;
+}
+
+.project:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.client {
+    width: 10vw;
+    height: 10vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid orangered;
+    border-radius: 10px;
+}
+
+.client:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.email {
+    width: 10vw;
+    height: 10vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid orangered;
+    border-radius: 10px;
+}
+
+.email:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.alt img {
+    margin-bottom: 5px;
+}
+
+.alt h1 {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.alt p {
+    margin-top: 5px;
+}
+
+.ttl {
+    padding: 0 240px;
+    display: flex;
+    align-items: center;
+}
+
+.ttl h1 {
+    font-size: 40px;
+    color: orangered;
+}
+
+.vline2 {
+    border-left: 10px solid orangered;
+    height: 100px;
+    padding-right: 1vw;
+}
+
+.wow {
+    margin-bottom: 25px;
+}
+
+.wow h1 {
+    margin-bottom: 5px;
+}
+
+.wow p {
+    margin-top: 5px;
+}
+
+.sponsor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsor img {
+    padding: 20px;
+    width: 150px;
+    height: 45px;
+    flex-shrink: 0;
+}
+.txt{
+    text-align: center;
+}
+.txt h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: orangered;
+}
+
+.txt p{
+    margin-top: 5px;
+}
+.sponsorx{
+text-align: center;
+}
+.sponsorx hr{
+    width: 10vw;
+    height: 1vh;
+    background-color: orangered;
+    border: none;
 }
